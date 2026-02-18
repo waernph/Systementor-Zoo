@@ -1,0 +1,80 @@
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    padding: 20px;
+    background-color: #eec170;
+}
+h1{
+    font-family: "Limelight";
+    color: #eec170;
+}
+h2 {
+    font-family: "Limelight";
+    color: #772f1a;
+}
+p{
+    font-family: "Nunito";
+}
+.hero {
+    padding: 0px;
+    height: 600px;
+    background-image: url(/resources/media/images/zoo.jpg); 
+
+}
+.hero h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+iframe{
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+}
+main ul {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    background-color: #f2a65a;
+}
+main img{
+    display: flex;
+    justify-items: center;
+    width: 70px;
+}
+table{
+    
+    border: #772f1a 1px solid;
+    border-collapse: collapse;
+    background-color: #eec170
+    
+    
+}
+td{
+    width:200px;
+    border: #772f1a 1px solid;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+th{
+    border-bottom: #772f1a 3px solid;
+}
+
+form{
+    width: 200px;
+    
+}
+form input{
+    margin-top: 15px;
+    height: 25px;
+    border-radius: 5px;
+}

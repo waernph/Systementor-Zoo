@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');</style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');</style>    
+    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="/resources/css/style.css" />
     <title>Document</title>
   </head>
@@ -14,13 +17,14 @@
         </ul>
       </nav>
     </header>
+    <main>
     <section class="hero">
       <h1>Welcome to Systementor Zoo!</h1>
     </section>
-    <section>
+    <section class="to-do-at-zoo">
       <h1>To do at the zoo</h1>
       <article>
-        <h2>For the childre</h2>
+        <h2>For the children</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
           ipsum modi accusamus! Nihil ad, impedit eos vitae perspiciatis magni
@@ -112,8 +116,8 @@
     </section>
     <section>
       <h1>Newsletter</h1>
-      <form action="https://http-echo-server.azurewebsites.net" method="post">
-        <label for="first-name">First name</label>
+      <form action="https://http-echo-server.azurewebsites.net" method="post" id="newsletter-form" target="_blank">
+        <label for="first-name" hidden>First name</label>
         <input
           type="text"
           id="first-name"
@@ -121,7 +125,7 @@
           placeholder="First name"
           required
         />
-        <label for="last-name">Last name</label>
+        <label for="last-name" hidden>Last name</label>
         <input
           type="text"
           id="last-name"
@@ -129,7 +133,7 @@
           placeholder="Last name"
           required
         />
-        <label for="email">E-Mail</label>
+        <label for="email" hidden>E-Mail</label>
         <input
           type="email"
           id="email"
@@ -137,7 +141,7 @@
           placeholder="E-Mail"
           required
         />
-        <label for="age">Age</label>
+        <label for="age" hidden>Age</label>
         <input
           type="number"
           name="age"
@@ -146,17 +150,18 @@
           placeholder="You need to be at least 18 years old"
           required
         />
+        <button type="submit">Register</button>
       </form>
+      
     </section>
     <iframe 
     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1776.419563873362!2d11.940551435655637!3d57.685467385961466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff33daa6e6d4f%3A0x47c444cd8c6d5c2e!2sBarnens%20zoo!5e0!3m2!1ssv!2sse!4v1771411136425!5m2!1ssv!2sse" 
-    width="600" 
-    height="450" 
     style="border:0;" 
     allowfullscreen="" 
     loading="lazy" 
     referrerpolicy="no-referrer-when-downgrade">
 </iframe>
     </section>
+</main>
   </body>
 </html>
