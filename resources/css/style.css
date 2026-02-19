@@ -1,80 +1,172 @@
-.limelight-regular {
-  font-family: "Limelight", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+:root {
+    --left-15px: 15px;
 }
 
-body{
-    padding: 20px;
+.limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
     background-color: #eec170;
 }
-h1{
-    font-family: "Limelight";
-    color: #eec170;
-}
-h2 {
+
+h1 {
+    padding: var(--left-15px);
     font-family: "Limelight";
     color: #772f1a;
 }
-p{
+
+h2 {
+    padding: var(--left-15px);
+    font-family: "Limelight";
+    color: #772f1a;
+}
+
+p {
+    padding-left: var(--left-15px);
+    padding-right: 50%;
     font-family: "Nunito";
 }
-.hero {
-    padding: 0px;
-    height: 600px;
-    background-image: url(/resources/media/images/zoo.jpg); 
 
+.hero {
+    height: 600px;
+    background-image: url(/resources/media/images/zoo.jpg);
 }
-.hero h1{
+
+nav {
+    top: 0;
+    background-color: #772f1a;
+    width: 100%;
+}
+
+nav a {
+    color: #eec170;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #eec170;
+    text-decoration: none
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header li {
+
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+    padding-right: 50%;
+    height: 50px;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero h1 {
+    color: #772f1a;
+    text-shadow: #eec170 2px 2px 1px;
+    margin-top: 0;
+    padding-top: 50px;
     font-size: 50px;
     text-align: center;
 }
 
-iframe{
+iframe {
+    padding: var(--left-15px);
     width: 400px;
     height: 400px;
     padding-top: 30px;
 }
+
+
 main ul {
     display: flex;
     flex-direction: row;
-    
+    padding-top: 30px;
+    padding-inline-start: 0;
     justify-content: space-evenly;
     text-align: center;
     list-style: none;
     background-color: #f2a65a;
 }
-main img{
-    display: flex;
-    justify-items: center;
+
+main img {
     width: 70px;
 }
-table{
-    
+
+table {
+    margin-left: var(--left-15px);
     border: #772f1a 1px solid;
     border-collapse: collapse;
     background-color: #eec170
-    
-    
 }
-td{
-    width:200px;
+
+td {
+    margin-top: 5px;
+    width: 200px;
     border: #772f1a 1px solid;
     text-align: center;
     align-content: center;
     justify-content: center;
 }
 
-th{
+th {
     border-bottom: #772f1a 3px solid;
 }
 
-form{
+form {
+    margin-top: 0px;
+    padding-left: var(--left-15px);
     width: 200px;
-    
+
 }
-form input{
+
+form input {
     margin-top: 15px;
     height: 25px;
     border-radius: 5px;
+}
+
+form button {
+    background-color: #772f1a;
+    color: #eec170;
+    margin-top: 15px;
+    padding: 5px 10px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+}
+
+.animals-at-the-zoo {
+    margin: 0;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 60px;
+    background-color: #772f1a;
+}
+footer p {
+    font-family: "Limelight", sans-serif;
+    color: #eec170;
+    padding: 0;
+}
+footer a {
+    color: #eec170;
+    font-size: large;
+}
+.rotate-image:hover{
+    transform: rotate(20deg);
+    transition: all 0.3s ease-in-out;
 }
