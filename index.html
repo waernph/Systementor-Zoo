@@ -1,220 +1,175 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
-    </style>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="/resources/css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#to-do-at-the-zoo">To do at the zoo</a></li>
-          <li><a href="#animals-at-the-zoo">Our animals</a></li>
-          <li><a href="#newsletter-form-section">Newsletter</a></li>
-          <li><a href="#find-us">Find us</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <h1>Welcome to Systementor Zoo!</h1>
-      </section>
-      <section class="to-do-at-zoo" id="to-do-at-the-zoo">
-        <h1>To do at the zoo</h1>
-        <article>
-          <h2>For the children</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
-            ipsum modi accusamus! Nihil ad, impedit eos vitae perspiciatis magni
-            dolorum?
-          </p>
-        </article>
-        <article>
-          <h2>Restaurants</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
-            laudantium iure aut iusto autem eveniet exercitationem excepturi!
-            Minima eos eum est quos voluptate, at adipisci.
-          </p>
-        </article>
-        <article id="animals-at-the-zoo">
-          <h2>Our amazing animals</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            quasi, quidem voluptate veritatis est sint, aperiam dolorem,
-            repellat atque dicta impedit officiis deserunt. At, eveniet nam
-            obcaecati eum similique consequuntur!
-          </p>
-        </article>
-      </section>
-      <section class="animals-at-the-zoo">
-        <ul>
-          <li>
-            <img class="rotate-image" src="/resources/media/graphics/cat.png" alt="Cat" />
-            <h2>Cats</h2>
-          </li>
-          <li>
-            <img class="rotate-image" src="/resources/media/graphics/dogLogo.png" alt="Dog" />
-            <h2>Dogs</h2>
-          </li>
-          <li>
-            <img class="rotate-image" src="/resources/media/graphics/chicken.png" alt="Chicken" />
-            <h2>Chickens</h2>
-          </li>
-          <li>
-            <img class="rotate-image" src="/resources/media/graphics/parrot.png" alt="Parrot" />
-            <h2>Parrots</h2>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Read more about our animals</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Spieces</th>
-              <th>Weight</th>
-              <th>Wiki</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Rufus</td>
-              <td>
-                <img
-                  src="/resources/media/graphics/parrot.png"
-                  alt="Ara parrot"
-                />
-              </td>
-              <td>3 kg</td>
-              <td>
-                <a href="https://sv.wikipedia.org/wiki/R%C3%B6d_ara">info</a>
-              </td>
-            </tr>
-            <tr>
-              <td>Sune</td>
-              <td><img src="/resources/media/graphics/cat.png" alt="Cat" /></td>
-              <td>8 kg</td>
-              <td><a href="https://sv.wikipedia.org/wiki/Huskatt">info</a></td>
-            </tr>
-            <tr>
-              <td>Preben</td>
-              <td>
-                <img
-                  src="/resources/media/graphics/chicken.png"
-                  alt="Chicken"
-                />
-              </td>
-              <td>1 kg</td>
-              <td>
-                <a href="https://sv.wikipedia.org/wiki/Tamh%C3%B6na">info</a>
-              </td>
-            </tr>
-            <tr>
-              <td>Smilla</td>
-              <td>
-                <img src="/resources/media/graphics/dogLogo.png" alt="Dog" />
-              </td>
-              <td>5 kg</td>
-              <td><a href="https://sv.wikipedia.org/wiki/Hund">info</a></td>
-            </tr>
-            <tr>
-              <td>Karl-Gustaf</td>
-              <td><img src="/resources/media/graphics/cat.png" alt="Cat" /></td>
-              <td>5 kg</td>
-              <td><a href="https://sv.wikipedia.org/wiki/Huskatt">info</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <section id="newsletter-form-section">
-        <h2>Newsletter</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+  </style>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/resources/css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#to-do-at-the-zoo">To do at the zoo</a></li>
+        <li><a href="#animals-at-the-zoo">Our animals</a></li>
+        <li><a href="#newsletter-form-section">Newsletter</a></li>
+        <li><a href="#find-us">Find us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Welcome to Systementor Zoo!</h1>
+    </section>
+    <section class="to-do-at-zoo" id="to-do-at-the-zoo">
+      <h1>To do at the zoo</h1>
+      <article>
+        <h2>For the children</h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-          non esse ratione tempora nam. At?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+          ipsum modi accusamus! Nihil ad, impedit eos vitae perspiciatis magni
+          dolorum?
         </p>
-        <form
-          action="https://http-echo-server.azurewebsites.net"
-          method="post"
-          id="newsletter-form"
-          target="_blank"
-        >
-          <label for="first-name" hidden>First name</label>
-          <input
-            type="text"
-            id="first-name"
-            name="first-name"
-            placeholder="First name"
-            required
-            pattern="[A-Öa-ö]{2,30}"
-          />
-          <label for="last-name" hidden>Last name</label>
-          <input
-            type="text"
-            id="last-name"
-            name="last-name"
-            placeholder="Last name"
-            required
-            pattern="[A-Öa-ö]{2,30}"
-          />
-          <label for="email" hidden>E-Mail</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="E-Mail"
-            required
-            pattern="[A-Öa-ö][@]{1-1}[A-Za-z][.]{1-1}[A-Za-z]{1-10}"
-          />
-          <label for="age" hidden>Age</label>
-          <input
-            type="number"
-            name="age"
-            id="age"
-            min="18"
-            placeholder="You need to be at least 18 years old"
-            required
-          />
-          <button type="submit">Register</button>
-        </form>
-      </section>
-      <section id="find-us">
-        <h2>Find us</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1776.419563873362!2d11.940551435655637!3d57.685467385961466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff33daa6e6d4f%3A0x47c444cd8c6d5c2e!2sBarnens%20zoo!5e0!3m2!1ssv!2sse!4v1771411136425!5m2!1ssv!2sse"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        >
-        </iframe>
-      </section>
-    </main>
-    <footer>
+      </article>
+      <article>
+        <h2>Restaurants</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+          laudantium iure aut iusto autem eveniet exercitationem excepturi!
+          Minima eos eum est quos voluptate, at adipisci.
+        </p>
+      </article>
+      <article id="animals-at-the-zoo">
+        <h2>Our amazing animals</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          quasi, quidem voluptate veritatis est sint, aperiam dolorem,
+          repellat atque dicta impedit officiis deserunt. At, eveniet nam
+          obcaecati eum similique consequuntur!
+        </p>
+      </article>
+    </section>
+    <section class="animals-at-the-zoo">
+      <ul>
+        <li>
+          <img class="rotate-image" src="/resources/media/graphics/cat.png" alt="Cat" />
+          <h2>Cats</h2>
+        </li>
+        <li>
+          <img class="rotate-image" src="/resources/media/graphics/dogLogo.png" alt="Dog" />
+          <h2>Dogs</h2>
+        </li>
+        <li>
+          <img class="rotate-image" src="/resources/media/graphics/chicken.png" alt="Chicken" />
+          <h2>Chickens</h2>
+        </li>
+        <li>
+          <img class="rotate-image" src="/resources/media/graphics/parrot.png" alt="Parrot" />
+          <h2>Parrots</h2>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Read more about our animals</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Spieces</th>
+            <th>Weight</th>
+            <th>Wiki</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rufus</td>
+            <td>
+              <img src="/resources/media/graphics/parrot.png" alt="Ara parrot" />
+            </td>
+            <td>3 kg</td>
+            <td>
+              <a href="https://sv.wikipedia.org/wiki/R%C3%B6d_ara">info</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Sune</td>
+            <td><img src="/resources/media/graphics/cat.png" alt="Cat" /></td>
+            <td>8 kg</td>
+            <td><a href="https://sv.wikipedia.org/wiki/Huskatt">info</a></td>
+          </tr>
+          <tr>
+            <td>Preben</td>
+            <td>
+              <img src="/resources/media/graphics/chicken.png" alt="Chicken" />
+            </td>
+            <td>1 kg</td>
+            <td>
+              <a href="https://sv.wikipedia.org/wiki/Tamh%C3%B6na">info</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Smilla</td>
+            <td>
+              <img src="/resources/media/graphics/dogLogo.png" alt="Dog" />
+            </td>
+            <td>5 kg</td>
+            <td><a href="https://sv.wikipedia.org/wiki/Hund">info</a></td>
+          </tr>
+          <tr>
+            <td>Karl-Gustaf</td>
+            <td><img src="/resources/media/graphics/cat.png" alt="Cat" /></td>
+            <td>5 kg</td>
+            <td><a href="https://sv.wikipedia.org/wiki/Huskatt">info</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="newsletter-form-section">
+      <h2>Newsletter</h2>
       <p>
-        Visit us on social media
-        <a href="x.com"><i class="fa-brands fa-square-x-twitter"></i></a>
-        <a href="facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
-        <a href="instagram.com"
-          ><i class="fa-brands fa-square-instagram"></i
-        ></a>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+        non esse ratione tempora nam. At?
       </p>
-    </footer>
-  </body>
+      <form action="https://formshow.systementor.se/" method="post" id="newsletter-form" target="_blank">
+        <label for="first-name" hidden>First name</label>
+        <input class="name-input" type="text" id="first-name" name="first-name" placeholder="First name" required
+          pattern="[A-Öa-ö]{2,}" />
+        <label for="last-name" hidden>Last name</label>
+        <input class="name-input" type="text" id="last-name" name="last-name" placeholder="Last name" required pattern="[A-Öa-ö]{2,}" />
+        <label for="email" hidden>E-Mail</label>
+        <input class="mail-input" type="email" id="email" name="email" placeholder="E-Mail" required />
+        <label for="age" hidden>Age</label>
+        <input class="age-input" type="number" name="age" id="age" min="18" placeholder="Age at least 18 years old" required />
+        <button type="submit">Register</button>
+      </form>
+    </section>
+    <section id="find-us">
+      <h2>Find us</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1776.419563873362!2d11.940551435655637!3d57.685467385961466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff33daa6e6d4f%3A0x47c444cd8c6d5c2e!2sBarnens%20zoo!5e0!3m2!1ssv!2sse!4v1771411136425!5m2!1ssv!2sse"
+        style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+  </main>
+  <footer>
+    <p>
+      Visit us on social media
+      <a href="x.com"><i class="fa-brands fa-square-x-twitter"></i></a>
+      <a href="facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+    </p>
+  </footer>
+</body>
+
 </html>

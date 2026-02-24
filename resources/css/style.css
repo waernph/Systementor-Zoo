@@ -1,5 +1,7 @@
 :root {
     --left-15px: 15px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px;
 }
 
 .limelight-regular {
@@ -8,7 +10,16 @@
     font-style: normal;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    background-color: #772f1a;
+    width: 100%;
+    height: 50px;
+}
+
 body {
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     background-color: #eec170;
@@ -33,19 +44,19 @@ p {
 }
 
 .hero {
-    height: 600px;
+    height: 70vh;
     background-image: url(/resources/media/images/zoo.jpg);
 }
 
 nav {
-    top: 0;
+    /* top: 0;
     background-color: #772f1a;
-    width: 100%;
+    width: 100%; */
 }
 
 nav a {
     color: #eec170;
-    font-family: "Nunito", sans-serif;
+    font-family: "Limelight", sans-serif;
     text-decoration: none;
 }
 
@@ -128,12 +139,13 @@ th {
 form {
     margin-top: 0px;
     padding-left: var(--left-15px);
-    width: 200px;
+    width: 250px;
 
 }
 
 form input {
-    margin-top: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
     height: 25px;
     border-radius: 5px;
 }
@@ -150,6 +162,7 @@ form button {
 .animals-at-the-zoo {
     margin: 0;
 }
+
 footer {
     display: flex;
     justify-content: center;
@@ -157,16 +170,29 @@ footer {
     height: 60px;
     background-color: #772f1a;
 }
+
 footer p {
     font-family: "Limelight", sans-serif;
     color: #eec170;
     padding: 0;
 }
+
 footer a {
     color: #eec170;
     font-size: large;
 }
-.rotate-image:hover{
-    transform: rotate(20deg);
+
+.rotate-image:hover {
+    transform: rotate(15deg);
     transition: all 0.3s ease-in-out;
+}
+
+.name-input {
+    width: 100px;
+}
+.mail-input{
+    width: 220px;
+}
+.age-input {
+    width: 220px;
 }
