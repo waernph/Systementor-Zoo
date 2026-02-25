@@ -45,7 +45,7 @@ p {
 
 .hero {
     height: 70vh;
-    background-image: url(resources/media/images/zoo.jpg);
+    background-image: url(/resources/media/images/zoo.jpg);
 }
 
 
